@@ -13,7 +13,7 @@ else
 endif
 
 CC = gcc
-CFLAGS = -g -pipe -Wall -Wextra -pedantic -ansi \
+CFLAGS = -O3 -pipe -Wall -Wextra -pedantic -ansi \
 	 -D_POSIX_C_SOURCE=200809L -DPOSIX_TTY \
 	 -DENDIAN_LITTLE -DMEM_BREAK
 LDFLAGS = 
